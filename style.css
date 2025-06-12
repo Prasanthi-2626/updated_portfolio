@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(148,192,148);    
+}
+.navbar-left{
+    padding-left: 20px;
+}
+.navbar-right{
+    padding-rightL:10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+.a-element{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid red;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
