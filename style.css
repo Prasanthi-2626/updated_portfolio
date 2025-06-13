@@ -1,11 +1,20 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
 .navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(148,192,148);    
+    background-color: black;    
 }
 .navbar-left{
-    padding-left: 20px;
+    padding-left: 50px;
+}
+.logo-image{
+    height: 1k00px;
+
 }
 .navbar-right{
     padding-rightL:10px;
@@ -16,11 +25,21 @@
 .a-element{
     padding: 10px;
     margin: 10px;
-    border: 2px solid red;
+    font-family; system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: Bold;
 }
 .home{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    height: 80vh;
+    border: 7px solid red; 
+}
+.home-left{
+    width: 50vw;
+}
+.home-right{
+    width: 50vw
 }
